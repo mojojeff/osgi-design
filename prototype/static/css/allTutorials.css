@@ -85,10 +85,10 @@ body{
 	border-radius: 3px;
 	cursor: pointer;
 }
-.article-link a{
-	color: #555;
+.article-link:hover{
+	background-color: #999;
+	color:#fff;
 }
-.article-link a:hover{
+.toc-div a:hover{
 	text-decoration:none;
-	color:#C00;
 }
