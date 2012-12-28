@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.hero-unit {
+  margin-top:40px;
+  padding: 60px 60px 30px 60px;
+  color: inherit;
+  background-color:transparent;
+}
+.page-link-pos-adjust{
+	padding-top:40px;
+}
+.table{
+	border:none;
+}
+.article-section{
+	margin: 15px 0;
+	/*padding: 39px 19px 14px;*/
+	background-color: white;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.article-info{
+	padding:5px 0;
+}
+.article-info em{
+	line-height:1.3em;
+	font-size:0.9em;
+	color:#999;
+}
+.article-info h4{
+	margin:10px 0;
+
+	letter-spacing:1px;
+}
+.article-info p{
+	margin:7px 0;
+	font-size:0.85em;
+}
+.article-splitter{
+	border-bottom: dashed 1px #ddd;
+}
+.right-table{
+	margin-left:30px;
+}
