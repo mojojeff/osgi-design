@@ -5,7 +5,7 @@
 /***global
 *******************************/
 body{
-	font-family:"Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif,TrueType;
 	background:url(../img/common/bg.png) repeat-x left 40px;
 	min-width:1000px;
 }
