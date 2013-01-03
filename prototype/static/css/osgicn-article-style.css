@@ -7,10 +7,7 @@
  */
 
 
-#main{
-	padding-bottom:30px;
-	border-bottom:1px solid #000;
-}
+
 
 
 #main h1,
@@ -71,6 +68,7 @@
 }
 #main a:hover {
 	color:green;
+	text-decoration:none;
 }
 #main img{
 	padding:12px;
