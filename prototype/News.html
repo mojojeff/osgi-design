@@ -6,13 +6,14 @@
     <link href="static/css/bootstrap.css" rel="stylesheet">
     <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="static/css/common.css" rel="stylesheet">
-    <link href="static/css/News.css" rel="stylesheet">
+    <link href="static/css/news.css" rel="stylesheet">
     <link href="static/css/osgicn-article-style.css" rel="stylesheet">
     <script src="static/js/jquery.js"></script>
     <script src="static/js/bootstrap.js"></script>
 </head>
 
 <body >
+    <div><a id="page-top"/></div>
   	<div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -57,7 +58,6 @@
                 <div class="container">
                     <div class="hero-unit">
                         <h1>OSGi 最新资讯<small style="letter-spacing:1px;">&nbsp;&nbsp;&nbsp;&nbsp;</small></h1>
-        
                     </div>
                 </div>
             </div>
@@ -66,11 +66,9 @@
             <div class="container">
             	<div class="row-fluid">
                 	<div class="span9 news-dt">
-                    	
                         <div class="row-fluid news-dt-header">
                         	<a href="#" class="pull-right news-fav" title="加入收藏"><div class="not-fav-news"></div></a>
                         	<div class="news-dt-title">
-                            	
                                 <h2>日本最大电脑商富士通：Windows 8表现并不好</h2>
                                 <div class="news-info">
                                     <a href="#" title="发布者OSGi中文"><i class="icon-user icon-pos-adjust-for-yahei"></i>&nbsp;OSGi China中文</a>
@@ -98,10 +96,95 @@
                                 <p><strong>原文来自：</strong><a href="#">CSDN资讯</a></p>
 
                             </div>
+                            <div class="share-btns"> 
+                            	<a href="#" title="分享至微博"><img src="static/img/common/sns/32-weibo.png" /></a>
+                                <a href="#" title="分享至腾讯微博"><img src="static/img/common/sns/32-qqweibo.png" /></a>
+                                <a href="#" title="分享至网易微博"><img src="static/img/common/sns/32-163weibo.png" /></a>
+                                <a href="#" title="分享至搜狐微博"><img src="static/img/common/sns/32-sohuweibo.png" /></a>
+                                <a href="#" title="分享至百度空间"><img src="static/img/common/sns/32-baidu.png" /></a>
+                                <a href="#" title="分享至google+"><img src="static/img/common/sns/32-google.png" /></a>
+                                <a href="#" title="分享至人人"><img src="static/img/common/sns/32-renren.png" /></a>
+                                <a href="#" title="分享至豆瓣"><img src="static/img/common/sns/32-douban.png" /></a>
+                            </div>
                         </div>
-                        
-                     
-                        <div class="pagination pagination-centered pager-div">
+                        <div class="post-comment">
+                            <form class="white-panel-style-1 article-leave-comment ">
+                                <fieldset>
+                                    <legend>发表您的意见</legend>
+                                    <!--label></label>
+                                    <input type="text" placeholder="Type something…">
+                                    <span class="help-block">Example block-level help text here.</span-->
+                                    <label>
+                                      <textarea class="comment-box" rows="8" placeholder=" Type something…"></textarea> 
+                                    </label>
+                                    <button type="submit" class="btn btn-success">&nbsp;&nbsp;发&nbsp;送&nbsp;!&nbsp;&nbsp;</button>&nbsp;&nbsp;
+                                    <button type="reset" class="btn btn-primary ">&nbsp;&nbsp;清&nbsp;空&nbsp;&nbsp;&nbsp;</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                     	<div class="comments-ls">
+                        	<div class="page-header">
+                            	<h2>评&nbsp;论&nbsp;<small>Comments</small></h2>
+                            </div>
+                            <div class="media">
+                           		<hr class="comments-splitter" />
+                            	<a class="pull-left" href="#">
+                                	<img class="media-object" src="static/img/for-test/photo1.jpg">
+                             	</a>
+                              	<div class="media-body">
+                                	<a href="#" class="comment-poster">Amanda Chan</a>
+                                    <a href="#" class="reply-comment">回复</a>
+                                    <span class="pull-right comment-time">11/28/2012 12:20</span>
+                                    <p class="comment-text">
+                                            现在可谓是万事具备，只欠Helloworld了。为了将OSGi框架的三个层次都涵盖到，这个Helloworld可能会比其他你见到的OSGi Helloworld程序要复杂一点点。如果对代码中的一些API感到生疏，记得回到之前的入门篇中找到对应的内容，这样对你理解代码会有帮助。里面的关键代码已经用黄色高亮显示。（出于篇幅考虑，代码中的import语句都省略）
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media">
+                            	<hr class="comments-splitter" />
+                            	<a class="pull-left" href="#">
+                                	<img class="media-object" src="static/img/for-test/photo1.jpg">
+                             	</a>
+                              	<div class="media-body">
+                                	<a href="#" class="comment-poster">Amanda Chan</a>
+                                    <a href="#" class="reply-comment">回复</a>
+                                    <span class="pull-right comment-time">11/28/2012 12:20</span>
+                                    <p class="comment-text">
+                                            现在可谓是万事具备，只欠Helloworld了。为了将OSGi框架的三个层次都涵盖到，这个Helloworld可能会比其他你见到的OSGi Helloworld程序要复杂一点点。如果对代码中的一些API感到生疏，记得回到之前的入门篇中找到对应的内容，这样对你理解代码会有帮助。里面的关键代码已经用黄色高亮显示。（出于篇幅考虑，代码中的import语句都省略）
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media">
+                            	<hr class="comments-splitter" />
+                            	<a class="pull-left" href="#">
+                                	<img class="media-object" src="static/img/for-test/photo1.jpg">
+                             	</a>
+                              	<div class="media-body">
+                                	<a href="#" class="comment-poster">Amanda Chan</a>
+                                    <a href="#" class="reply-comment">回复</a>
+                                    <span class="pull-right comment-time">11/28/2012 12:20</span>
+                                    <p class="comment-text">
+                                            现在可谓是万事具备，只欠Helloworld了。为了将OSGi框架的三个层次都涵盖到，这个Helloworld可能会比其他你见到的OSGi Helloworld程序要复杂一点点。如果对代码中的一些API感到生疏，记得回到之前的入门篇中找到对应的内容，这样对你理解代码会有帮助。里面的关键代码已经用黄色高亮显示。（出于篇幅考虑，代码中的import语句都省略）
+                                    </p>     
+                                    <div class="media">
+                            			<hr class="comments-splitter" />   
+                                        <a class="pull-left" href="#">
+                                            <img class="media-object" src="static/img/for-test/photo1.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <a href="#" class="comment-poster">Amanda Chan</a>
+                                            <a href="#" class="reply-comment">回复</a>
+                                            <span class="pull-right comment-time">11/28/2012 12:20</span>
+                                            <p class="comment-text">
+                                                    现在可谓是万事具备，只欠Helloworld了。为了将OSGi框架的三个层次都涵盖到，这个Helloworld可能会比其他你见到的OSGi Helloworld程序要复杂一点点。如果对代码中的一些API感到生疏，记得回到之前的入门篇中找到对应的内容，这样对你理解代码会有帮助。里面的关键代码已经用黄色高亮显示。（出于篇幅考虑，代码中的import语句都省略）
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#page-top" class="back2top pull-right" title="返回顶部">&#9650;<br/>Top</a>
+                        <!--<div class="pagination pagination-centered pager-div">
                           <ul>
                             <li><a href="#">&laquo;</a></li>
                             <li><a href="#">1</a></li>
@@ -111,7 +194,7 @@
                             <li><a href="#">5</a></li>
                             <li><a href="#">&raquo;</a></li>
                          </ul>
-                        </div>    
+                        </div> -->   
                     </div>
                 	<div class="span3">
                     	<div class="white-panel-style-1 submit-articles">
@@ -120,7 +203,17 @@
                     	<div class="white-panel-style-1 rss-articles">
                         	<a href="#"><h2>订阅最新资讯&nbsp;<span>RSS</span></h2></a>
                         </div>
-                    
+                    	<div class="right-nav-div">
+							<h4><blockquote>相关资讯</blockquote></h4>
+                            <ol>
+                            	<li><a href="#" title="OSGi开发环境的建立和HelloWorld示例">OSGi开发环境建立和HelloWorld示例</a></li>
+                            	<li><a href="#" title="Apache Felix 介绍">Apache Felix 介绍</a></li>
+                            	<li><a href="#" title="OSGi入门篇：生命周期层">OSGi入门篇：生命周期层</a></li>
+                            	<li><a href="#" title="基于Virgo/Snaps的环境配置">基于Virgo/Snaps的环境配置</a></li>
+                            	<li><a href="#" title="ModelMapper:从对象到对象的映射库">ModelMapper:从对象到对象的映射库</a></li>
+                            	<li><a href="#" title="MariaDB的Cassandra存储引擎">MariaDB的Cassandra存储引擎</a></li>
+                            </ol>
+                        </div>                    
                     	<div class="right-nav-div">
 							<h4><blockquote>最受关注资讯</blockquote></h4>
                             <ol>
