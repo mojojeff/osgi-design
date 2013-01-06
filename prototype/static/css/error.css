@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***overwrite
+*******************************/
+body{
+	background:none;
+	background-color:#fff;
+}
+/***error style
+*******************************/
+.error-content{
+	margin:40px auto 0 auto;
+	padding:20px 0;	
+	width:1000px;	
+	min-width:1000px;
+}
+.error-msg-div{
+	padding:80px 0px 80px 0px;	
+	width:570px;
+}
+.error404-txt-line-01{
+	color:#aaa;	
+}
+.error404-txt-line-02{
+	color:#bd362f;
+	font-size:3.8em;
+	padding:20px 0 20px 50px;	
+}
+.error404-txt-line-03{
+	color:#aaa;
+	margin:0;
+	padding:5px 0 5px 30px;	
+}
+.error404-txt-line-04{
+	color:#aaa;
+	margin:0;
+	padding:0 0 0 30px;	
+}
+.error404-txt-line-03 a,
+.error404-txt-line-04 a{
+	color:#aaa;
+	border-bottom: 1px dotted #999;
+}
+.error404-txt-line-03 a:hover,
+.error404-txt-line-04 a:hover{
+	color:#08c;
+	text-decoration:none;
+	border-bottom: 1px dotted #999;
+}
+.error404-txt-line-05{
+	color:#555;
+	margin-top:20px;
+}
+.error404-txt-line-06{
+	color:#bbb;
+	margin:-10px 0 0 150px;	
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:5.6em;
+}
+.error404-txt-line-06 a{
+	color:#aaa;
+	border-bottom: 1px dotted #999;
+}
+.error404-txt-line-06 a:hover{
+	color:#08c;
+	text-decoration:none;
+	border-bottom: 1px dotted #999;
+}
+.back2index{
+	margin:15px 100px 0 0;
+	color:#aaa;
+	padding:12px 10px;
+	text-align:center;
+}
+.back2index:hover{
+	color:#08c;
+	text-decoration:none;
+}
+.back2index:hover:before{
+	content:"<< ";
+}
+.error-bg{
+	height:550px;
+	padding:50px 0 0 0;
+}
+.error-img{
+}
