@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***overwrite
+*******************************/
+body{
+	background:none;
+	background-color:#fff;
+}
+.header{
+	margin-top:50px;
+}
+.header-text{
+	margin-top:30px;
+	font-size:3.5em;
+	padding:0 5px;
+	vertical-align:middle;
+	text-shadow: 0 1px 0 #ddd;
+}
+.header-text .red-spot{
+ 	border-left:5px solid #b94a48; 
+	font-size:1em;
+	margin:0 15px 0 0;
+}
+.header-text small{
+	vertical-align:middle;
+	margin:0 0 0 20px;
+	font-size:1em;
+	letter-spacing:-3px;
+	color:#bbb;	
+}
+.sub-links{
+	margin:20px 0 25px 0;
+	padding:10px 40px;
+}
+.sub-links a{
+	color:#333;
+	margin:0 5px;
+	padding:10px; 
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.sub-links a:hover{
+	text-decoration:none;
+	background-color:#08c;
+	color:#fff;
+}
+.sub-links .active{
+	background-color:#08c;
+	color:#fff;
+}
+.blue-panel {
+	background-color: #d9edf7;
+	padding:10px; 
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.white-panel {
+	background-color: white;
+	border: 1px solid #DADADA;
+	margin-bottom: 40px;
+	padding:20px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
+.method .method-form{}
+.method h4{
+	line-height: 1.5em;
+}
+.method form{
+	margin: 0;
+}
+.method-form button{
+	font-family:"Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif,TrueType;
+	margin-top: 10px;
+}
+.method-form .controls{
+	padding:5px 10px 0px 10px;
+	margin-top: 3px;
+}
+.method-form .input-error-div{
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.method-form .input-error-div label small{
+	padding:0 20px;
+	color:#B94A48;
+}
+.method-form .input-error-div input{
+	border-color: #B94A48;
+}
+.method-mail h4{
+	line-height: 1.5em;
+}
+.method-mail a{
+	font-family: Georgia, 'Microsoft Yahei', "Times New Roman", Times, serif;
+	font-size: 2em;
+	padding: 20px;
+	display: block;
+}
+.method-mail a:hover{
+	color:#c33;
+	text-decoration:none;
+}
+.method-help a{
+	font-family: Georgia, 'Microsoft Yahei', "Times New Roman", Times, serif;
+	display: block;
+}
+.method-help a:hover{
+	color:#c33;
+	text-decoration:none;
+}
+.white-panel-style-1{
+	background-color: white;
+	border: 1px solid #DADADA;
+	margin-bottom: 20px;
+	padding:15px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
