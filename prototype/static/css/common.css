@@ -100,3 +100,8 @@ h6 {
 	color:white;
 }
 
+/***display
+*******************************/
+.hide{
+	display: none;
+}
